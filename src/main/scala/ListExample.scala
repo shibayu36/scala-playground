@@ -18,5 +18,7 @@ object ListExample {
       x * 10 + y
     } }
     println(reduced)
+
+    val seq = Seq(1,2,3)
   }
 }
