@@ -13,6 +13,7 @@ lazy val root = (project in file(".")).
       "org.json4s" %% "json4s-jackson" % "3.5.3",
       "org.postgresql" % "postgresql" % "42.1.4",
       "com.zaxxer" % "HikariCP" % "2.7.1",
+      "me.geso" % "nanobench" % "0.2.1",
       scalaTest % Test
     )
   )
