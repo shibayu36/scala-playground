@@ -1,4 +1,3 @@
-import java.sql._
 import com.zaxxer.hikari.{ HikariConfig, HikariDataSource }
 import scala.util.Random
 
