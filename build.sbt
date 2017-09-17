@@ -11,7 +11,8 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
       "org.json4s" %% "json4s-native" % "3.5.3",
       "org.json4s" %% "json4s-jackson" % "3.5.3",
-      "postgresql" % "postgresql" % "9.1-901.jdbc4",
+      "org.postgresql" % "postgresql" % "42.1.4",
+      "com.zaxxer" % "HikariCP" % "2.7.1",
       scalaTest % Test
     )
   )
