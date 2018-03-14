@@ -14,6 +14,7 @@ lazy val root = (project in file(".")).
       "org.postgresql" % "postgresql" % "42.1.4",
       "com.zaxxer" % "HikariCP" % "2.7.1",
       "me.geso" % "nanobench" % "0.2.1",
+      "joda-time" % "joda-time" % "2.9.9",
       scalaTest % Test
     )
   )
